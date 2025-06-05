@@ -36,7 +36,6 @@ At the destination node, the NI reassembles received flits back into complete AX
 The global time base (GTB) supports synchronized operations, time-triggered communication and enhanced event logging or system debugging.
 
 # Project Execution Steps: 
-# Project Definition
 
 **Defined the primary goal:** to design, integrate, and simulate a time-triggered (TT) scheduling mechanism within an AXI-based Network-on-Chip (NoC) for reliable, efficient on-chip communication.
 
