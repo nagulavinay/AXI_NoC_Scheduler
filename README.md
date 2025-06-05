@@ -66,24 +66,3 @@ Conducted thorough simulations to verify that all modules interact as intended.
 
 Confirmed correct transmission of messages across the NoC under the TT scheduling scheme.
 
-# Applications
-High-performance multiprocessor SoCs
-
-FPGA-based data center interconnects
-
-AI/ML hardware accelerators
-
-Research platforms for scalable and reconfigurable NoC architectures
-
-# Benefits
-Scalable architecture supporting many cores/nodes
-
-Efficient, deadlock-free communication via the AXI standard
-
-Reduced network congestion and improved throughput with torus mesh topology
-
-Flexibility for prototyping and experimenting with advanced NoC concepts on FPGA
-
-Global synchronization and advanced debugging with GTB
-
-
