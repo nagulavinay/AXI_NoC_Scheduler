@@ -35,6 +35,37 @@ At the destination node, the NI reassembles received flits back into complete AX
 **Synchronization & Control:**
 The global time base (GTB) supports synchronized operations, time-triggered communication and enhanced event logging or system debugging.
 
+# Project Execution Steps: 
+# Project Definition
+
+**Defined the primary goal:** to design, integrate, and simulate a time-triggered (TT) scheduling mechanism within an AXI-based Network-on-Chip (NoC) for reliable, efficient on-chip communication.
+
+Set future objectives to explore dynamic message scheduling to further improve adaptability and network utilization.
+
+Custom Hardware Design in Vivado
+
+Developed a custom hardware platform using Vivado Design Suite.
+
+Incorporated a processing core, Global Time Base (GTB) for system-wide synchronization, AXI SmartConnect for inter-module communication, and the TTEL module SkiNoC for time-triggered communication scheduling.
+
+**Integration through Top-Level Design Wrapper**
+
+Created a top-level design wrapper integrating all hardware modules (processing core, GTB, SmartConnect, SkiNoC, etc.).
+
+This wrapper serves as the main environment enabling seamless communication between all modules.
+
+**Development of Simulation Testbench**
+
+Developed a comprehensive simulation testbench to exercise the network under various traffic patterns and scenarios.
+
+Simulated the behavior of the entire system to test robustness and correctness of time-triggered message scheduling.
+
+**Validation and Verification**
+
+Conducted thorough simulations to verify that all modules interact as intended.
+
+Confirmed correct transmission of messages across the NoC under the TT scheduling scheme.
+
 # Applications
 High-performance multiprocessor SoCs
 
